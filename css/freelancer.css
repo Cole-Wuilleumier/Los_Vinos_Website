@@ -103,8 +103,7 @@ section h2 {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+
   font-family: 'Roboto', sans-serif;
 }
 
@@ -140,15 +139,16 @@ section h2 {
   padding: 0.8rem;
 }
 
+
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
   #mainNav .navbar-brand {
-    font-size: 2em;
+    font-size: 3em;
     -webkit-transition: font-size 0.3s;
     transition: font-size 0.3s;
   }
@@ -160,8 +160,8 @@ section h2 {
   }
 
   #mainNav.navbar-shrink {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
@@ -170,10 +170,13 @@ section h2 {
 }
 
 header.masthead {
+  margin-top: 2rem;
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
-  background-image: url("img/Main_Page_Hero.png") !important;
-
+  background-repeat:no-repeat;
+  background-position:bottom;
+  background-size:cover;
+  background-image: url("../img/Main_Page_Hero.png") !important;
 }
 
 header.masthead h1 {
@@ -188,8 +191,14 @@ header.masthead h2 {
   font-weight:100;
 }
 
+.masthead .play-circle{
+  font-size: 10rem !important;
+}
+
+
 @media (min-width: 992px) {
   header.masthead {
+    margin-top: 5rem;
     padding-top: calc(6rem + 106px);
     padding-bottom: 6rem;
   }
@@ -337,11 +346,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #18BC9C;
+  color: #fff;
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  color: #B53759;
 }
 
 .btn {
