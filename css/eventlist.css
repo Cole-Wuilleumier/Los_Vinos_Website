@@ -18,6 +18,12 @@
 	max-width: 400px;
 }
 
+.show-search {
+	float: right; 
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
 .event-list {
 	list-style: none;
 	font-family: 'Lato', sans-serif;
