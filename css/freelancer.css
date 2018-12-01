@@ -48,7 +48,6 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
 }
 
 hr.star-dark {
@@ -327,7 +326,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #ffffff;
 }
 
 form .row:first-child .floating-label-form-group {
