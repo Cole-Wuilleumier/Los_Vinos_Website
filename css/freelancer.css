@@ -193,6 +193,9 @@ header.masthead h2 {
   font-size: 10rem !important;
 }
 
+.masthead a .play-circle:active, .masthead a .play-circle:focus{
+  color:#fff !important;
+}
 
 @media (min-width: 992px) {
   header.masthead {
@@ -208,7 +211,15 @@ header.masthead h2 {
     font-size: 1.75em;
   }
 }
-
+hr{
+  height: 1px;
+  color: #B53759;
+  background-color: #B53759;
+  border: none;
+  margin-top: -20px;
+  height: 30px;
+  width: 30rem;
+}
 .portfolio {
   margin-bottom: -15px;
 }
