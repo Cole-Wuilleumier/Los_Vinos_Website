@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Roboto';
+    font-family: 'Roboto';
 }
 
 h1,
@@ -38,6 +38,7 @@ hr.star-dark:after {
   padding: 0 0.25em;
   content: '\f005';
   font-family: 'Roboto', sans-serif;
+  font-weight: 900;
   font-size: 2em;
 }
 
@@ -104,7 +105,6 @@ section h2 {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-weight: 700;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -122,7 +122,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: #B53759;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -130,7 +130,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+  color: #B53759;
 }
 
 #mainNav .navbar-toggler {
@@ -346,19 +346,19 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: #1B1E34 !important;
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: #1B1E34 !important;
 }
 
 .text-primary {
-  color: #18BC9C !important;
+  color: #FFFFFF !important;
 }
 
 .text-secondary {
-  color: #2C3E50 !important;
+  color: #000000 !important;
 }
 
 .btn-primary {
