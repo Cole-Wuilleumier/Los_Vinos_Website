@@ -17,6 +17,26 @@ h6 {
     font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+  font-weight: 100;
+}
+
+p{
+  font-weight: 100;
+}
+
+.label{
+  font-size: 1.2rem;
+  font-weight: 500;
+
+}
+
+.detail{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+
 hr{
   height: 1px;
   color: #B53759;
