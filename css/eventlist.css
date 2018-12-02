@@ -232,18 +232,18 @@
 	}
 }
 
-#portfolio-modal-1 .container {
+.portfolio-modal-show .container {
 	background-color: #1B1E34;
 	color: white;
 	padding-top: 20px;
 }
 
-#portfolio-modal-1 .row {
+.portfolio-modal-show .row {
 	padding-top: 40px; 
 	padding-bottom: 40px;
 }
 
-#portfolio-modal-1 .border {
+.portfolio-modal-show .border {
 	margin-bottom:20px; 
 	margin-top:10px; 
 	color: white; 
