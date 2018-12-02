@@ -17,6 +17,7 @@
 	float: right; 
 	margin-top: 10px;
 	margin-right: 10px;
+	color: white !important;
 }
 
 .show-detail-li {
@@ -249,7 +250,12 @@
 	padding-bottom: 20px;
 }
 
-#button-container {
+#portfolio-button-container {
 	width: 100%; 
-	padding-left: 40px;	
+	padding-left: 40px;		
+}
+
+.show-detail-button {
+	color: white !important;
+	margin-left: 10px;
 }
