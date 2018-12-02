@@ -19,6 +19,19 @@
 	margin-right: 10px;
 }
 
+.show-detail-li {
+	background-color: #1B1E34; 
+	color: white;	
+}
+
+.show-detail-li-label {
+	font-weight: 1000;	
+}
+
+.show-detail-li-value {
+	font-weight: 300;	
+}
+
 .event-list {
 	list-style: none;
 	font-family: 'Lato', sans-serif;
@@ -216,4 +229,26 @@
 		width: 40px;
 		padding: 10px 0px 9px;
 	}
+}
+
+#portfolio-modal-1 .container {
+	background-color: #1B1E34;
+	color: white;
+}
+
+#portfolio-modal-1 .row {
+	padding-top: 40px; 
+	padding-bottom: 40px;
+}
+
+#portfolio-modal-1 .border {
+	margin-bottom:20px; 
+	margin-top:10px; 
+	color: white; 
+	padding-bottom: 20px;
+}
+
+#button-container {
+	width: 100%; 
+	padding-left: 40px;	
 }
