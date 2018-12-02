@@ -226,6 +226,14 @@ header.masthead h2 {
   color:#000;
 }
 
+#social-cause .close-button:hover {
+  color:#B53759;
+}
+
+.close-social:hover{
+  background-color:#fff;
+}
+
 .web-link{
   color: #B53759;
 }
