@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto';
 }
 
+
+/*
+* Utility Styles *
+*/
 h1,
 h2,
 h3,
@@ -35,7 +39,6 @@ p{
   font-size: 1.2rem;
   font-weight: 300;
 }
-
 
 hr{
   height: 1px;
@@ -103,6 +106,9 @@ section h2 {
   line-height: 3.1rem;
 }
 
+/*
+* Navigation Styles *
+*/
 #mainNav {
 
   font-family: 'Roboto', sans-serif;
@@ -140,22 +146,25 @@ section h2 {
   padding: 0.8rem;
 }
 
-
 @media (min-width: 992px) {
+
   #mainNav {
     padding-top: 0;
     padding-bottom: 0;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
+
   #mainNav .navbar-brand {
     font-size: 3em;
     -webkit-transition: font-size 0.3s;
     transition: font-size 0.3s;
   }
+
   #mainNav .navbar-nav {
     margin-top: 0;
   }
+
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #B53759;
   }
@@ -169,6 +178,10 @@ section h2 {
   }
 
 }
+
+/*
+* Header Styles *
+*/
 
 header.masthead {
   margin-top: 2rem;
@@ -200,7 +213,6 @@ header.masthead h2 {
   color:#fff !important;
 }
 
-
 @media (min-width: 992px) {
 
   header.masthead {
@@ -218,6 +230,9 @@ header.masthead h2 {
 
 }
 
+/*
+* Social Cause Section Styles *
+*/
 .social-icon{
   font-size: 3rem !important;
 }
@@ -238,6 +253,10 @@ header.masthead h2 {
   color: #B53759;
 }
 
+
+/*
+* Form Styles *
+*/
 .floating-label-form-group {
   position: relative;
   border-bottom: 1px solid #e9ecef;
@@ -298,10 +317,9 @@ form .row:first-child .floating-label-form-group {
   color: #fff;
 }
 
-.copyright {
-  background-color: #1a252f;
-}
-
+/*
+* Button Styles *
+*/
 a {
   color: #fff;
 }
