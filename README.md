@@ -6,6 +6,8 @@ Provide a modern, user-friendly website for fans to listen to Los Vinos music an
 
 ## Sources:
 
+[Freelancer Bootstrap Template](https://github.com/BlackrockDigital/startbootstrap-freelancer) 
+
 [Man with guitar with Bass behind him:La Rumba - Zorro, Video by Russell Boyde](https://www.youtube.com/watch?v=V3Vi_S0nzHY)
 
 [Image of Man and Woman playing guitar](https://www.pexels.com/photo/photography-of-people-playing-gutiar-1164773/)
