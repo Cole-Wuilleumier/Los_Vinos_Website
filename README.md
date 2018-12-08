@@ -34,6 +34,9 @@ Provide a modern, user-friendly website for fans to listen to Los Vinos music an
 
 [Male and Female flemenco guitarists on stage](https://www.straitstimes.com/sites/default/files/styles/article_pictrure_780x520_/public/articles/2015/04/12/jdacou12e_2x.jpg?itok=XOverqty&timestamp=1434461779)
 
+[Kids of Harmony Project](https://scontent-iad3-1.cdninstagram.com/vp/886e471df8b39e487dbb904bd6244e21/5CAE1E7D/t51.2885-15/sh0.08/e35/s640x640/42173853_151255265824224_781888812694008223_n.jpg)
+
+
 
 
 
