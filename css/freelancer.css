@@ -401,3 +401,7 @@ a:focus, a:hover, a:active {
 .show-item-list-action li {
 	width: 50%;
 }
+
+.show-ul {
+	margin-right: 35px;
+}
