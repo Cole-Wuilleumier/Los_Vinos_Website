@@ -253,6 +253,23 @@ header.masthead h2 {
   color: #B53759;
 }
 
+/*
+* Podcast Section Styles
+*/
+#podcast .close-button{
+  color:#000;
+}
+
+#podcast .close-button:hover {
+  color:#B53759;
+}
+
+#podcast hr{
+  background-color:#000;
+  width:100%;
+  height:1px;
+}
+
 
 /*
 * Form Styles *
