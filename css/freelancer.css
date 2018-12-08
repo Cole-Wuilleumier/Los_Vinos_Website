@@ -188,7 +188,7 @@ header.masthead {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
   background-repeat:no-repeat;
-  background-position:bottom;
+  background-position:top;
   background-size:cover;
   background-image: url("../img/Main_Page_Hero.png") !important;
 }
