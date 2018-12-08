@@ -384,3 +384,20 @@ a:focus, a:hover, a:active {
   background-color: #B53759;
   border-color: #B53759;
 }
+
+.donation-list-comment {
+	font-size: 12px; 
+	font-weight: 100;
+}
+
+.donation-list-name {
+	font-size: 12px;
+}
+
+.show-social-button {
+	width: 33%;
+}
+
+.show-item-list-action li {
+	width: 50%;
+}
