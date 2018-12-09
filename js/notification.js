@@ -9,7 +9,7 @@
 
       var signedUpMsg = '<div class="col-sm-12 col-lg-12 text-center">'
                       +'  <p>Thank you for signing up for Los Vinos email notifications!</p>'
-                      +'  <p>You will now recieve Los Vinos emails at ' + emailInput + '.</p>'
+                      +'  <p>You will now receive Los Vinos emails at ' + emailInput + '.</p>'
                       +'</div>';
 
       $("#notificationEntered").html(signedUpMsg);
