@@ -30,7 +30,7 @@
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#home">Los Vinos</a>
-        <img src="img/Los-Vinos-Logo-black.png" width="40px" class="ml-5">
+        <img src="img/Los-Vinos-Logo-black.png" width="40px" class="ml-3">
         <button class="navbar-toggler navbar-toggler-right text-uppercase rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
         </button>
@@ -83,8 +83,8 @@
           </div>
         </div>
         <div class="col col-lg-12 mt-3 text-center">
-          <p>Check of the Los Vinos podcast</p>
-          <a class="portfolio-item btn btn-md btn-outline-light mx-auto" href="#podcast">
+          <h4>Check out the Los Vinos podcast</h4>
+          <a class="portfolio-item btn btn-lg btn-outline-light mx-auto" href="#podcast">
             Podcast
           </a>
         </div>
@@ -105,8 +105,8 @@
           <div class="col col-lg-12 mt-3 text-center">
             <p>Los Vinos are proud supporters of the <b>Harmony Project</b></p>
             <button type="button" class="btn btn-md btn-outline-light" data-toggle="modal" data-target="#donateModal">
-				Donate Now <span style="color: #f00;" class="fa fa-heart"></span>
-			</button>
+              Donate Now <span style="color: #f00;" class="fa fa-heart"></span>
+            </button>
             <a class="portfolio-item btn btn-md btn-outline-light mx-auto" href="#social-cause">
               Find Out More
             </a>
@@ -138,9 +138,16 @@
   <!-- Shows Section -->
 	<section class="bg-primary mb-0" id="shows">
 		<div class="container">
-			<h2 id="shows-title" class="text-center text-uppercase mb-0" style="color: rgb(255, 255, 255);">Shows</h2>
+      <h2 id="shows-title" class="text-center text-uppercase mb-0" style="color: rgb(255, 255, 255);">Shows</h2>
       <hr class="mb-4">
+
 			<div id="shows-row" class="row">
+        <div class="col-sm-12 text-center">
+          <p class="text-white">To hear about upcoming shows in your area, sign up for the Los Vinos mailing list.</p>
+          <a class="portfolio-item btn btn-md btn-outline-light mx-auto mb-5" href="#notification">
+            Sign Up
+          </a>
+        </div>
 				<div id="event-list-div">
 					<ul class="event-list">
 
@@ -194,7 +201,7 @@
               </div>
             </li>
 
-            <!--Procidence Show-->
+            <!--Providence Show-->
 						<li>
               <time datetime="2019-07-20 0000">
                 <span class="day">13</span> <span class="month">Apr</span>
@@ -347,7 +354,7 @@
           <hr>
           <div class="row mt-4 text-center">
             <div class="col-sm-12 col-lg-4 mx-auto">
-              <a href="music/self-titled.html">
+              <a class="portfolio-item" href="#los-vinos-album">
                 <p>
                   <img src="img/los-vinos-self-titled.png">
                 </p>
@@ -355,7 +362,7 @@
               </a>
             </div>
             <div class="col-sm-12 col-lg-4 mx-auto">
-              <a href="music/el-mar.html">
+                <a class="portfolio-item" href="#el-mar-album">
                 <p>
                   <img src="img/album_cover-el-mar.png"  class="img-fluid">
                 </p>
@@ -363,7 +370,7 @@
               </a>
             </div>
             <div class="col-sm-12 col-lg-4 mx-auto">
-              <a href="music/los-fotos.html">
+                <a class="portfolio-item" href="#los-fotos-album">
                 <p>
                   <img src="img/album_cover-los-fotos.png"  class="img-fluid">
                 </p>
@@ -379,6 +386,149 @@
     <a class="js-scroll-trigger d-block text-center rounded" href="#home">
       <i class="fa fa-chevron-up"></i>
     </a>
+  </div>
+
+
+  <!-- Los Vinos Self-Titled - Modal Popup -->
+	<div id="los-vinos-album" class="portfolio-modal portfolio-modal-show mfp-hide" role="dialog">
+      <div class="portfolio-modal-dialog">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-white">
+          <h2 class="text-center text-uppercase mb-0">Los Vinos</h2>
+          <hr>
+          <div class="row">
+            <div class="col-lg-10 mx-auto">
+              <div class="row mt-3">
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                  <table class="album-details">
+                    <tr class="mb-2">
+                      <td class="label">Title :</td>
+                      <td class="pl-2 detail">Los Vinos (Self Titled)</td>
+                    </tr>
+                    <tr class="mb-2">
+                      <td class="label">Label :</td>
+                      <td class="pl-2 detail">Los Vinos Inc.</td>
+                    </tr>
+                    <tr class="mb-2">
+                      <td class="label">Released :</td>
+                      <td class="pl-2 detail">Nov. 2018</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="row mt-2">
+                  <div class="col-sm-12 col-md-5 col-lg-5 mt-4">
+                    <img src="img/los-vinos-self-titled.png" width="100%">
+                  </div>
+                  <div class="col-sm-12 col-md-7 col-lg-7 mt-4">
+                      <iframe src="https://open.spotify.com/embed/album/5Ap74Zg6Ue8oxhe9JaEBzc" width="100%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-12 text-center mt-2">
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss mx-auto mb-4 close-social" href="#">Close</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- El Mar - Modal Popup -->
+	<div id="el-mar-album" class="portfolio-modal portfolio-modal-show mfp-hide" role="dialog">
+      <div class="portfolio-modal-dialog">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-white">
+          <h2 class="text-center text-uppercase mb-0">El Mar</h2>
+          <hr>
+          <div class="row">
+            <div class="col-lg-10 mx-auto">
+              <div class="row mt-3">
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                  <table class="album-details">
+                    <tr class="mb-2">
+                      <td class="label">Title :</td>
+                      <td class="pl-2 detail">El Mar</td>
+                    </tr>
+                    <tr class="mb-2">
+                      <td class="label">Label :</td>
+                      <td class="pl-2 detail">Los Vinos Inc.</td>
+                    </tr>
+                    <tr class="mb-2">
+                      <td class="label">Released :</td>
+                      <td class="pl-2 detail">Jan. 2017</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="row mt-2">
+                  <div class="col-sm-12 col-md-5 col-lg-5 mt-4">
+                    <img src="img/album_cover-el-mar.png" width="100%">
+                  </div>
+                  <div class="col-sm-12 col-md-7 col-lg-7 mt-4">
+                      <iframe src="https://open.spotify.com/embed/artist/0huGEQDDk36uplL0QvI3Kn" width="100%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-12 text-center mt-2">
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss mx-auto mb-4 close-social" href="#">Close</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--  Los Fotos - Modal Popup -->
+	<div id="los-fotos-album" class="portfolio-modal portfolio-modal-show mfp-hide" role="dialog">
+    <div class="portfolio-modal-dialog">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-white">
+          <h2 class="text-center text-uppercase mb-0">Los Fotos</h2>
+        <hr>
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="row mt-3">
+              <div class="col-sm-12 col-md-8 col-lg-8">
+                <table class="album-details">
+                  <tr class="mb-2">
+                    <td class="label">Title :</td>
+                    <td class="pl-2 detail">Los Fotos</td>
+                  </tr>
+                  <tr class="mb-2">
+                    <td class="label">Label :</td>
+                    <td class="pl-2 detail">Los Vinos Inc.</td>
+                  </tr>
+                  <tr class="mb-2">
+                    <td class="label">Released :</td>
+                    <td class="pl-2 detail">May 2015</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-sm-12 col-md-5 col-lg-5 mt-4">
+                  <img src="img/album_cover-los-fotos.png" width="100%">
+                </div>
+                <div class="col-sm-12 col-md-7 col-lg-7 mt-4">
+                    <iframe src="https://open.spotify.com/embed/album/432d1zlqHrYEtbLfPFJ5fb" width="100%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+          </div>
+          <div class="col-sm-12 text-center mt-2">
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss mx-auto mb-4 close-social" href="#">Close</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
     
   <!-- Show Details - San Diego - Popup Modal -->
@@ -696,13 +846,14 @@
     <!-- Social Cause Section - Popup Modal -->
     <div class="portfolio-modal mfp-hide" id="social-cause">
       <div class="portfolio-modal-dialog bg-white">
-        <a class="d-none d-md-block portfolio-modal-dismiss ml-3" href="#">
-          <i class="fa fa-3x fa-times close-button"></i>
-        </a>
+        <button type="button" class="close portfolio-modal-dismiss mr-3" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-2 mt-4">Harmony Project</h2>
+              <hr class="mb-4 mt-2">
                 <div class="row">
                   <div class="col-sm-12">
                     <p>When Los Vinos started making music, they never wanted to forget their roots. They knew that in addition to producing songs that people could enjoy, a top priority would be giving back to the musical community. This is why they have partnered with Harmony Project, a program that “provides comprehensive, tuition-free music education and social support to youth across Los Angeles, Southern California, and beyond."</p>
@@ -740,7 +891,9 @@
                   <div class="col-sm-12">
                     <p>Learn more about Harmony Project and their mission <a href="https://www.harmony-project.org/mission" class="web-link" target="_blank"> HERE</a>. You may also donate to their incredible cause <a href="https://www.harmony-project.org/donate" class="web-link" target="_blank">HERE</a>.</p>
                   </div>
-                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss mx-auto mb-4 close-social" href="#">Close</a>
+                  <div class="col-sm-12 mt-5 mb-5 text-center">
+                      <button type="button" class="btn btn-secondary portfolio-modal-dismiss" >Close</button>
+                  </div>
               </div>
             </div>
           </div>
@@ -751,9 +904,9 @@
     <!-- Podcast Section - Popup Modal -->
     <div class="portfolio-modal mfp-hide" id="podcast">
       <div class="portfolio-modal-dialog bg-white">
-        <a class="d-none d-md-block portfolio-modal-dismiss ml-3" href="#">
-          <i class="fa fa-3x fa-times close-button"></i>
-        </a>
+        <button type="button" class="close portfolio-modal-dismiss mr-3" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
         <div class="container">
           <div class="row">
             <div class="col-lg-11 mx-auto">
@@ -779,20 +932,18 @@
                 <div class="col-sm-12 col-lg-6 text-center">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/BvWB7B8tXK8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                
               </div>
-              <div class="col-sm-12 text-center mt-5">
-                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss mx-auto mb-4 close-social" href="#">Close</a>
+              <div class="col-sm-12 mt-5 mb-5 text-center">
+                  <button type="button" class="btn btn-secondary portfolio-modal-dismiss" >Close</button>
               </div>
             </div>
-            
           </div>
         </div>
       </div>
     </div>
   
-     <!-- Donate Popup Modal -->
-    <div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!--Harmony Project Donation - Popup Modal-->
+  <div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered" role="document">
 	    <div class="modal-content text-center">
 	      <div class="modal-header">
@@ -805,110 +956,108 @@
 	      <img src="img/Harmony1.png" style="width: 100%; padding-bottom: 10px;;"/>
 	      	<p>Thank you for considering a donation.
 	        <p>Los Vinos is a proud supporter of the Harmony project.
-			<p>Thousands of children in Los Angeles say 'Thank You'
-			
-			<ul style="overflow-y: scroll; max-height: 200px; list-style-type: none;">
-				<li>
-				  <div class="list-group-item list-group-item-action flex-column align-items-start">
-				    <div class="d-flex w-100 justify-content-between donation-list-name">
-				      <h7>Ivy - $120</h7>
-				      <i class="donation-list-comment">Keep up the good work!</i>
-				      <small>27 minutes ago</small>
-				    </div>
-				  </div>
-				</li>
-				<li>
-				  <div class="list-group-item list-group-item-action flex-column align-items-start">
-				    <div class="d-flex w-100 justify-content-between donation-list-name">
-				      <h7>Rob - $100</h7>
-				      <i class="donation-list-comment">Thank you!</i>
-				      <small>45 minutes ago</small>
-				    </div>
-				  </div>
-				</li>
-				<li>
-				  <div class="list-group-item list-group-item-action flex-column align-items-start">
-				    <div class="d-flex w-100 justify-content-between donation-list-name">
-				      <h7>Cole - $200</h7>
-				      <i class="donation-list-comment">Great job!</i>
-				      <small>1 hour ago</small>
-				    </div>
-				  </div>
-				</li>
-				<li>
-				  <div class="list-group-item list-group-item-action flex-column align-items-start">
-				    <div class="d-flex w-100 justify-content-between donation-list-name">
-				      <h7>Chuck - $100</h7>
-				      <i class="donation-list-comment">Great organization!</i>
-				      <small>2 hour ago</small>
-				    </div>
-				  </div>
-				</li>
-				<li>
-				  <div class="list-group-item list-group-item-action flex-column align-items-start">
-				    <div class="d-flex w-100 justify-content-between donation-list-name">
-				      <h7>Kayla - $100</h7>
-				      <i class="donation-list-comment">You guys rock!</i>
-				      <small>4 hour ago</small>
-				    </div>
-				  </div>
-				</li>
-				<li>
-				  <div class="list-group-item list-group-item-action flex-column align-items-start">
-				    <div class="d-flex w-100 justify-content-between donation-list-name">
-				      <h7>Raj - $50</h7>
-				      <i class="donation-list-comment">Wow - Terrific job!</i>
-				      <small>10 hour ago</small>
-				    </div>
-				  </div>
-				</li>
-				<li>
-				  <div class="list-group-item list-group-item-action flex-column align-items-start">
-				    <div class="d-flex w-100 justify-content-between donation-list-name">
-				      <h7>Rachel - $300</h7>
-				      <i class="donation-list-comment">Exicited to be involved.</i>
-				      <small>1 day ago</small>
-				    </div>
-				  </div>
-				</li>
-				<li>
-				  <div class="list-group-item list-group-item-action flex-column align-items-start">
-				    <div class="d-flex w-100 justify-content-between donation-list-name">
-				      <h7>Jorge - $150</h7>
-				      <i class="donation-list-comment">Proud to support.</i>
-				      <small>1 day ago</small>
-				    </div>
-				  </div>
-				</li>
-				<li>
-				  <div class="list-group-item list-group-item-action flex-column align-items-start">
-				    <div class="d-flex w-100 justify-content-between donation-list-name">
-				      <h7>Vijay - $100</h7>
-				      <i class="donation-list-comment">Great Job.</i>
-				      <small>2 days ago</small>
-				    </div>
-				  </div>
-				</li>
-				<li>
-				  <div class="list-group-item list-group-item-action flex-column align-items-start">
-				    <div class="d-flex w-100 justify-content-between donation-list-name">
-				      <h7>Tony - $75</h7>
-				      <i class="donation-list-comment">Never prouder.</i>
-				      <small>3 days ago</small>
-				    </div>
-				  </div>
-				</li>
-				<li>
-				  <div class="list-group-item list-group-item-action flex-column align-items-start">
-				    <div class="d-flex w-100 justify-content-between donation-list-name">
-				      <h7>Cindy - $150</h7>
-				      <i class="donation-list-comment">Great Cause!</i>
-				      <small>1 week ago</small>
-				    </div>
-				  </div>
-				</li>
-			</ul>
-			
+			    <p>Thousands of children in Los Angeles say 'Thank You'
+          <ul style="overflow-y: scroll; max-height: 200px; list-style-type: none;">
+            <li>
+              <div class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between donation-list-name">
+                  <p>Ivy - $120</p>
+                  <i class="donation-list-comment">Keep up the good work!</i>
+                  <small>27 minutes ago</small>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between donation-list-name">
+                  <p>Rob - $100</p>
+                  <i class="donation-list-comment">Thank you!</i>
+                  <small>45 minutes ago</small>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between donation-list-name">
+                  <p>Cole - $200</p>
+                  <i class="donation-list-comment">Great job!</i>
+                  <small>1 hour ago</small>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between donation-list-name">
+                  <p>Chuck - $100</p>
+                  <i class="donation-list-comment">Great organization!</i>
+                  <small>2 hour ago</small>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between donation-list-name">
+                  <p>Kayla - $100</p>
+                  <i class="donation-list-comment">You guys rock!</i>
+                  <small>4 hour ago</small>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between donation-list-name">
+                  <p>Raj - $50</p>
+                  <i class="donation-list-comment">Wow - Terrific job!</i>
+                  <small>10 hour ago</small>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between donation-list-name">
+                  <p>Rachel - $300</p>
+                  <i class="donation-list-comment">Exicited to be involved.</i>
+                  <small>1 day ago</small>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between donation-list-name">
+                  <p>Jorge - $150</p>
+                  <i class="donation-list-comment">Proud to support.</i>
+                  <small>1 day ago</small>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between donation-list-name">
+                  <p>Vijay - $100</p>
+                  <i class="donation-list-comment">Great Job.</i>
+                  <small>2 days ago</small>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between donation-list-name">
+                  <p>Tony - $75</p>
+                  <i class="donation-list-comment">Never prouder.</i>
+                  <small>3 days ago</small>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between donation-list-name">
+                  <p>Cindy - $150</p>
+                  <i class="donation-list-comment">Great Cause!</i>
+                  <small>1 week ago</small>
+                </div>
+              </div>
+            </li>
+          </ul>
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -916,7 +1065,36 @@
 	      </div>
 	    </div>
 	  </div>
-	</div>
+  </div>
+  
+  <!--Email Notification - Popup Modal-->
+  <div class="portfolio-modal mfp-hide" id="notification">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="text-secondary text-uppercase mb-2 mt-4">Sign Up for Email Notifications</h5>
+          <button type="button" class="close portfolio-modal-dismiss" onclick="javascript:resetNotification();" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="container modal-body text-center">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <div id="notificationEntered" class="row">
+                <div class="col-sm-9 col-lg-9 text-center">
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+                  <p id="validEmail"></p>
+                </div>
+                <div class="col-sm-3 col-lg-3">
+                  <button type="submit" onclick="javascript:emailNotification();" class="btn btn-primary">Submit</button>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
     <!-- Bootstrap core JavaScript -->
@@ -931,6 +1109,9 @@
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
 
+    <!--Custom script for Notifcation Modal-->
+    <script src="js/notification.js"></script>
+    
   </body>
 
 </html>
